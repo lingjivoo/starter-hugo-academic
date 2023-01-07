@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Siyang Song 宋思阳
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Siyang
+last_name: Song
 
 # Status emoji
 status:
