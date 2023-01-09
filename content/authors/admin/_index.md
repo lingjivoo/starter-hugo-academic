@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Siyang Song 宋思阳
+title: Siyang Song
 
 # Full name (for SEO)
 first_name: Siyang
