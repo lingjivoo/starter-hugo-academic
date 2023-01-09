@@ -89,7 +89,7 @@ sections:
     content:
       title: Contact
       subtitle:
-      
+      text: |-
       # Contact (add or remove contact options as necessary)
       email: ss2796 AT cam DOT ac DOT uk
       phone: 888 888 88 88
