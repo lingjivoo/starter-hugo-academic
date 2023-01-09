@@ -14,8 +14,41 @@ sections:
       text:
     design:
       columns: '2'
-
-  - block: experience
+     
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
+  - block: collection
+    content:
+      title: Recent Publications
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
+ 
+  - block: tag_cloud
+    content:
+      title: Popular Topics
+    design:
+      columns: '2'
+      
+ - block: experience
+    id: experience
     content:
       title: Experience
       # Date format for experience
@@ -51,44 +84,12 @@ sections:
     design:
       columns: '2'
 
-     
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
- 
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle:
-      text: |-
+      
       # Contact (add or remove contact options as necessary)
       email: ss2796 AT cam DOT ac DOT uk
       phone: 888 888 88 88
