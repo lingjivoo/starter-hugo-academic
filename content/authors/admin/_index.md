@@ -26,9 +26,11 @@ bio: My research interests include distributed robotics, mobile computing and pr
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Affective Computing
+  - Human-computer Interaction
+  - Computer Vision
+  - Machine Learning
+  - Personality, mental health and facial analysis
 
 # Education to show in About widget
 education:
